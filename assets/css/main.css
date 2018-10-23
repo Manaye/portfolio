@@ -217,12 +217,19 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 		background-color: #888;
-		
 	}
-	#about h2{
+	#about p{
 		color: white;
 	}
-
+  #portfolio p{
+	  color: white;
+  }
+  #top img{
+	  width: 200px;
+	  height: 200px;
+	  border-radius: 10%;
+	  float: left;
+  }
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
@@ -1777,8 +1784,9 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 50%;
 			margin: 0 0 2em 0;
+			float: left;
 		}
 
 		.image.left {
