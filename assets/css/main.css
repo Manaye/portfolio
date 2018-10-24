@@ -229,12 +229,13 @@ input, select, textarea {
   #portfolio p{
 	  color: white;
   }
-  #portfolio h2{
-	color: white;
-}
+  #portfolio h2, #about h2, #contact #h2{
+	color: #563f46;
+	}
 #top.one.dark.cover{
 	margin: 0 auto;
-	background-color:#ddeedd ;
+	background-color:  #667292;
+	max-height: 100%;
 	max-width: 100%;
 	width: 1400px;
 }
@@ -247,13 +248,85 @@ input, select, textarea {
   }
   #contact .container{
 	  background-color: #8d9db6;
+	  height: 100%;
 	  color: white;
   }
   #contact .container h2{
 	
-	color: white;g
+	color: white;
 }
 
+   @media screen and (min-width: 320px)and (max-width: 800px){
+	#top.one.dark.cover,#portfolio .container,#about .container,#contact .container{
+		margin-top: 15px;
+		height: 100%;
+		
+	}
+	#top p,#portfolio .container p,#about p{
+		font-size: 1em;
+		
+	}
+
+	 #about img{
+		margin-top: 5px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		float: left;
+	} 
+	#about header{
+		margin-bottom: 5px;
+	}
+	#about h2{
+		color: #563f46;
+	}
+	#portfolio .image .fit{
+		height: 30%;
+		height: 30%;
+	}
+	#contact .container header,#contact .container form{
+		margin-bottom: 3;
+	}
+	#contact .container textarea{
+		min-height: 20%;
+	}
+ 
+   }
+   @media screen and (min-width: 800px)and (max-width: 1024px){
+	#top.one.dark.cover,#portfolio .container,#about .container,#contact .container{
+		margin-top: 15px;
+		height: 100%;
+		
+	}
+	#top p,#portfolio .container p,#about p{
+		font-size: 1em;
+		
+	}
+
+	 #about img{
+		margin-top: 5px;
+		width: 350px;
+		height: 400px;
+		float: left;
+	} 
+	#about header{
+		margin-bottom: 5px;
+	}
+	#about h2{
+		color: #563f46;
+	}
+	#portfolio .image .fit{
+		height: 30%;
+		
+	}
+	#contact .container header,#contact .container form{
+		margin-bottom: 3;
+	}
+	#contact .container textarea{
+		min-height: 20%;
+	}
+   }
+   
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
