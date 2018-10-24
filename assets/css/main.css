@@ -221,15 +221,39 @@ input, select, textarea {
 	#about p{
 		color: white;
 	}
+	#portfolio .container{
+	  background-color: #8d9db6;
+	  
+  }
+  
   #portfolio p{
 	  color: white;
   }
-  #top img{
-	  width: 200px;
-	  height: 200px;
-	  border-radius: 10%;
-	  float: left;
+  #portfolio h2{
+	color: white;
+}
+#top.one.dark.cover{
+	margin: 0 auto;
+	background-color:#ddeedd ;
+	max-width: 100%;
+	width: 1400px;
+}
+  
+  #top .container{
+	  background-color: #50394c;
   }
+  #top p{
+	  font-size: 1.5em;
+  }
+  #contact .container{
+	  background-color: #8d9db6;
+	  color: white;
+  }
+  #contact .container h2{
+	
+	color: white;
+}
+
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
